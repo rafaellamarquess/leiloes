@@ -21,7 +21,7 @@ public class conectaDAO {
             return DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/leiloestdsat",
                 "root",
-                "senha"
+                "cherrybomb"
             );
         } catch (SQLException e) {
             System.out.println("Erro ao conectar: " + e.getMessage());
